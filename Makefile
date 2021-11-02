@@ -8,7 +8,7 @@ include makefile.conf
 
 ## -g    Adds debuging info and flags for the complier.
 ## -Wall Turn on common complier warnings.
-## For C++ define CC = g++
+## For C++ define CC = g++.
 CC = aarch64-linux-gnu=gcc-9
 CFLAGS = -g -Wall
 

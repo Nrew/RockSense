@@ -11,7 +11,6 @@
 #include <fcntl.h>
 #include <errno.h>
 
-
 #define START_CONVERSION 0x12
 
 /**

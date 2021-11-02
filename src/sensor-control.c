@@ -10,7 +10,6 @@
 float pressure ;
 float temp;
 
-
 int connectI2CBus(void) {
     if ((file = open(filename, O_RDWR)) < 0 ) {
         perror("Failed to open bus.");
